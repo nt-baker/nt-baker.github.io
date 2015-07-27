@@ -1,2 +1,2 @@
 # nt-baker.github.io
-Portfolio site
+Setting up a basic portfolio/resume site
