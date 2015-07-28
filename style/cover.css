@@ -52,12 +52,6 @@ body {
   margin-left: auto;
 }
 
-/* Padding for spacing */
-.inner {
-  padding: 30px;  
-}
-
-
 /*
  * Header
  */
@@ -103,6 +97,10 @@ body {
   .cover{
     position: relative;
     top: -130px;
+  }
+  /* Padding for spacing */
+  .inner {
+    padding: 30px;  
   }
 }
 
