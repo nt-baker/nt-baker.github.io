@@ -43,7 +43,7 @@ html, body {
 }
 
 .job-image {
-  padding: 25px;
+  padding-top: 25px;
 }
 
 .tech-xp {
@@ -73,6 +73,18 @@ html, body {
   padding: 0px;
 }
 
+@media (max-width: 352px) {
+  .down-arrow{
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .job-image {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .tech-xp {
     position:relative;
@@ -86,11 +98,5 @@ html, body {
     background-color: rgba(0, 0, 0, 0.5);
     height:auto;
     width: 100%;
-  }
-}
-
-@media (max-width: 352px) {
-  .down-arrow{
-    display: none;
   }
 }
