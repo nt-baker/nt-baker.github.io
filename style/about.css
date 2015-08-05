@@ -16,7 +16,7 @@ html, body {
 }
 
 .outside-photo {
-  background: url("../images/004.jpg") no-repeat;
+  background: url("../images/tetons.jpg") no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -27,7 +27,7 @@ html, body {
 }
 
 .travel-photo {
-  background: url("../images/8372.jpg") no-repeat center;
+  background: url("../images/amsterdam.jpg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
