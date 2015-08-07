@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  background-color:#EFEFEF;
+  color: #333;
+}
+
+.photo-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+  overflow: hidden;
+  background-color: rgba(0,0,0,0.8);
+  margin-bottom: 0px;
+  height: 100%;
+  padding-top: 55px;
+}
+
+.text-light {
+  color: #EFEFEF;
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+
+.emphasis-gold {
+  color: #F5BC18;
+  font-weight: bold;
+  text-shadow: 0 1px 3px rgba(0,0,0,.3);
+}
+
+.job-stripe {
+  background-color: #EBECED;
+  padding: 50px;
+}
+
+.job-image {
+  padding: 25px;
+}
+
+.down-arrow {
+  font-size:24px;
+  color:#EBECED;
+  padding:10px;
+  margin-left: -30px;
+  position: absolute;
+  bottom:0px;
+  left: 50%;
+}
+
+.arrow-bg {
+  border-radius: 25px;
+  border: 1px solid #EBECED;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.footer {
+  padding: 25px;
+  background-color: #333;
+  color: #EBECED;
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0px;
+}
