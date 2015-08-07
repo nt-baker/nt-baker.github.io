@@ -62,6 +62,13 @@ html, body {
   width: 270px;
 }
 
+.arrow-bg {
+  border-radius: 25px;
+  border: 1px solid #EBECED;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
 .footer {
   padding: 25px;
   background-color: #333;

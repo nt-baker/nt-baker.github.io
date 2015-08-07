@@ -46,11 +46,11 @@
 			</p>
 		</div>
 		<div class="container down-arrow apparate">
-			<p><span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span> But wait, there's more!</p>
+			<p><span class="glyphicon glyphicon-arrow-down arrow-bg" data-toggle="tooltip" data-original-title="But wait, there's more!" class="tip" aria-hidden="true"></span></p>
 		</div>
 	</div>
 
-	<div class="container-fluid job-stripe">
+	<div id="stripe-1" class="container-fluid job-stripe">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -180,6 +180,11 @@
     <script type="text/javascript">
     	$(function () {
 		  	$('[data-toggle="tooltip"]').tooltip();
+				$(".down-arrow").click(function() {
+				    $('html, body').animate({
+				        scrollTop: $("#stripe-1").offset().top
+				    }, 2000);
+				});
 		 });
 
 		 $(window).scroll(function() {
@@ -192,7 +197,7 @@
 				{
 				 $('.apparate').fadeIn();
 				}
-		});
+			});
     </script>
 </body>
 </html>

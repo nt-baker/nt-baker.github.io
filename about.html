@@ -47,18 +47,20 @@
 		This page includes my favorite ASCII Art and my favorite quote of all time!
  	-->
 	<div class="jumbotron">
-		<div class="container tech-xp">
-			<h1 class="text-left">&ldquo;The mountains are calling, and I must go.&rdquo;</h1>
-			<p class="author"> - John Muir</p>
+		<div class="container quote">
+			<h1 class="text-left">&ldquo;The mountains are calling...&rdquo;</h1>
+		</div>
+		<div class="container down-arrow apparate">
+			<p><span class="glyphicon glyphicon-arrow-down arrow-bg" data-toggle="tooltip" data-original-title="But wait, there's more!" class="tip" aria-hidden="true"></span></p>
 		</div>
 	</div>
 
-	<div class="container-fluid job-stripe">
+	<div id="stripe-1" class="container-fluid job-stripe">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-1"></div>
 				<div class="col-md-10">
-					<h1>Get Outside</h1>
+					<h1>&ldquo;...and I must go.&rdquo; <small>- John Muir</small></h1>
 					<p>When I'm not at work, I try to spend as much time outdoors as I can. Depending on the day you might find me rock climbing,
 						playing ultimate, paddleboarding, attempting to slackline, or jumping in the nearest river to escape the Texas heat. As you
 						may have guessed from the quote above, I also love the mountains, and escape to them any chance I get.</p>
@@ -116,9 +118,25 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript">
-    	$(function () {
-		  	$('[data-toggle="tooltip"]').tooltip();
-		 });
+  		$(function () {
+				$('[data-toggle="tooltip"]').tooltip();
+				$(".down-arrow").click(function() {
+				    $('html, body').animate({
+				        scrollTop: $("#stripe-1").offset().top
+				    }, 2000);
+				});
+			});
+			$(window).scroll(function() {
+
+			 if ($(this).scrollTop()>0)
+				{
+					 $('.apparate').fadeOut();
+				}
+			 else
+				{
+				 $('.apparate').fadeIn();
+				}
+			});
     </script>
 </body>
 </html>

@@ -53,7 +53,7 @@ html, body {
 .jumbotron h1 {
   color: #000;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  font-size: 48px;
+  font-size: 36px;
 }
 
 .author {
@@ -80,7 +80,7 @@ html, body {
   padding: 25px;
 }
 
-.tech-xp {
+.quote {
   position:relative;
   top: 5%;
 }
@@ -96,6 +96,13 @@ html, body {
   width: 270px;
 }
 
+.arrow-bg {
+  border-radius: 25px;
+  border: 1px solid #EBECED;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
 .footer {
   padding: 25px;
   background-color: #333;
@@ -108,7 +115,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
-  .tech-xp {
+  .quote {
     position:relative;
     top: 60px;
   }
@@ -120,7 +127,7 @@ html, body {
 }
 
 @media (max-width: 1200px) {
-  .tech-xp{
+  .quote {
     padding-left: 30px;
     height:auto;
     width: 100%;
@@ -130,5 +137,11 @@ html, body {
 @media (max-width: 352px) {
   .down-arrow{
     display: none;
+  }
+}
+
+@media (min-width: 1180px) {
+  .outside-photo{
+    background-position: 0px -150px;
   }
 }
