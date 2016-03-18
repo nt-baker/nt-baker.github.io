@@ -1,0 +1,26 @@
+
+#title {
+  min-height: 500px;
+}
+
+.title-image {
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+
+.photo {
+  margin-bottom: 50px;
+}
+
+.portrait {
+  max-width: 600px;
+}
+
+.photo-desc {
+  padding: 10px 10px 10px 20px;
+  background-color: #343D49;
+  color: #CCD7E6;
+  font-family: 'Reenie Beanie', serif;
+  font-size: 2em;
+}
